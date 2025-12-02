@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'RWAHT 官方文档',
+			title: 'RWAHT 官方文档 Q&A',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
