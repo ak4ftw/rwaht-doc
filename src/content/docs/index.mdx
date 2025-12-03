@@ -1,40 +1,39 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 欢迎来到 RWAHT 官方文档 Q&A
+description: 了解更多
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 了解更多内容。
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/logo1.png
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 开始
+      link: /start/how-to-get-app/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## 常见问题
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+<CardGrid>
+    <Card title="官方媒体地址" icon="comment">
+        官网 https://rwaht.com
+
+        <a href="/start/official-address/">点击查看</a>
+    </Card>
+	<Card title="如何下载手机app" icon="download">
+        谷歌商店搜索 rwaht
+
+        <a href="/start/how-to-get-app/">点击查看</a>
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="充提币错误" icon="add-document">
+        我把币充值/提现到错误地址、陌生地址，或者输错链网络了，可以找回吗？
+        <a href="/start/translate-error-address/">点击查看</a>
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="上币相关" icon="setting">
+        上币相关内容
+
+        <a href="/bisiness/how-to-trade-my-token-in-rwaht/">点击查看</a>
 	</Card>
 </CardGrid>
