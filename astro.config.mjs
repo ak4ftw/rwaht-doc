@@ -30,7 +30,7 @@ export default defineConfig({
                 {
                     label: '商务合作',
                     items: [
-                        { label: '如何让我的代币在RWAHT中交易', slug: 'bisiness/how-to-trade-my-token-in-rwaht' },
+                        { label: '如何让我的代币在RWAHT中交易', slug: 'business/how-to-trade-my-token-in-rwaht' },
                     ],
                 },
 			],
