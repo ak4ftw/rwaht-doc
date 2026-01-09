@@ -3,7 +3,7 @@ title: 如何获取 RWAHT 手机app
 description: 如何获取 RWAHT 手机app
 ---
 
-当前最新版本 0.1.1
+当前最新版本 0.1.2
 
 ## 安卓手机
 
